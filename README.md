@@ -1,9 +1,9 @@
 # UBI — Machine Learning Authentication of Bohol Ubi 'Kinampay' via EDXRF Elemental Fingerprinting
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19949864.svg)](https://doi.org/10.5281/zenodo.19949864)
 [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Data License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19949864.svg)](https://doi.org/10.5281/zenodo.19949864)
 
 This repository accompanies the manuscript:
 
@@ -105,7 +105,25 @@ If you use this code or data, please cite the paper (citation will be updated up
 }
 ```
 
-A versioned snapshot of this repository is permanently archived on Zenodo: **DOI: 10.5281/zenodo.XXXXXXX** *(to be issued upon submission release).*
+To cite the software / data archive directly:
+
+```bibtex
+@software{bongalos2026ubi_zenodo,
+  author    = {Bongalos, Jerald B. and Bautista VII, Angel T. and Rallos, Roland V. and
+               Jomoc, Dennis B. and Backian, Grace S. and Masangcay, Teresita D. and
+               Agoo, Esperanza Maribel G. and Magtaas, Remjohn Aron H.},
+  title     = {{UBI: Machine Learning Framework for Variety Authentication and
+               Geographic Provenance of Bohol Ubi 'Kinampay' (Dioscorea alata L.)
+               Using EDXRF Elemental Fingerprinting}},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {v1.0.2},
+  doi       = {10.5281/zenodo.19949864},
+  url       = {https://doi.org/10.5281/zenodo.19949864}
+}
+```
+
+A versioned snapshot of this repository is permanently archived on Zenodo: **[DOI: 10.5281/zenodo.19949864](https://doi.org/10.5281/zenodo.19949864)**.
 
 ---
 
