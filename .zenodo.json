@@ -1,46 +1,38 @@
 {
   "title": "UBI: Machine Learning Framework for Variety Authentication and Geographic Provenance of Bohol Ubi 'Kinampay' (Dioscorea alata L.) Using EDXRF Elemental Fingerprinting",
-  "description": "<p>Source dataset, complete analytical pipeline, and figure-generation code accompanying the manuscript: <em>Machine Learning Framework for Variety Authentication and Geographic Provenance of Bohol Ubi 'Kinampay' (Dioscorea alata L.) Using EDXRF Elemental Fingerprinting</em>, submitted to <em>Scientific Reports</em>.</p><p>The repository contains: (i) the source elemental composition dataset (52 samples × 7 elements + class labels) acquired by energy-dispersive X-ray fluorescence (EDXRF) on a Bruker S2 PUMA spectrometer; (ii) a Jupyter notebook implementing the full analytical pipeline including ten-algorithm benchmarking, leave-one-out cross-validation, Random Forest classification, and SHAP explainability analysis; and (iii) auxiliary scripts and dependency specifications for full reproducibility.</p><p>Headline result: Random Forest achieved 86.5% LOOCV accuracy (sensitivity = 94.4%, specificity = 68.8%, AUC = 0.888), with SHAP analysis identifying Mn (26.3%), Sr (17.2%), and Cu (16.3%) as the dominant geochemical predictors of authentic Bohol Kinampay variety.</p>",
+  "description": "<p>Source dataset, complete analytical pipeline, and figure-generation code accompanying the manuscript: <em>Machine Learning Framework for Variety Authentication and Geographic Provenance of Bohol Ubi 'Kinampay' (Dioscorea alata L.) Using EDXRF Elemental Fingerprinting</em>, submitted to <em>Scientific Reports</em>.</p><p>The repository contains: (i) the source elemental composition dataset (52 samples \u00d7 7 elements + class labels) acquired by energy-dispersive X-ray fluorescence (EDXRF) on a Bruker S2 PUMA spectrometer; (ii) a Jupyter notebook implementing the full analytical pipeline including ten-algorithm benchmarking, leave-one-out cross-validation, Random Forest classification, and SHAP explainability analysis; and (iii) auxiliary scripts and dependency specifications for full reproducibility.</p><p>Headline result: Random Forest achieved 86.5% LOOCV accuracy (sensitivity = 94.4%, specificity = 68.8%, AUC = 0.888), with SHAP analysis identifying Mn (26.3%), Sr (17.2%), and Cu (16.3%) as the dominant geochemical predictors of authentic Bohol Kinampay variety.</p>",
   "creators": [
     {
       "name": "Bongalos, Jerald B.",
-      "affiliation": "De La Salle University; Asian Institute of Management; DOST-Science Education Institute; DOST-Philippine Nuclear Research Institute",
-      "orcid": "REPLACE_WITH_ORCID_OR_REMOVE_LINE"
+      "affiliation": "De La Salle University; Asian Institute of Management; DOST-Science Education Institute; DOST-Philippine Nuclear Research Institute"
     },
     {
       "name": "Bautista VII, Angel T.",
-      "affiliation": "DOST-Philippine Nuclear Research Institute",
-      "orcid": "REPLACE_WITH_ORCID_OR_REMOVE_LINE"
+      "affiliation": "DOST-Philippine Nuclear Research Institute"
     },
     {
       "name": "Rallos, Roland V.",
-      "affiliation": "DOST-Philippine Nuclear Research Institute",
-      "orcid": "REPLACE_WITH_ORCID_OR_REMOVE_LINE"
+      "affiliation": "DOST-Philippine Nuclear Research Institute"
     },
     {
       "name": "Jomoc, Dennis B.",
-      "affiliation": "Bohol Island State University \u2013 Bilar Campus",
-      "orcid": "REPLACE_WITH_ORCID_OR_REMOVE_LINE"
+      "affiliation": "Bohol Island State University \u2013 Bilar Campus"
     },
     {
       "name": "Backian, Grace S.",
-      "affiliation": "Northern Philippines Root Crops Research and Training Center, Benguet State University",
-      "orcid": "REPLACE_WITH_ORCID_OR_REMOVE_LINE"
+      "affiliation": "Northern Philippines Root Crops Research and Training Center, Benguet State University"
     },
     {
       "name": "Masangcay, Teresita D.",
-      "affiliation": "Northern Philippines Root Crops Research and Training Center, Benguet State University",
-      "orcid": "REPLACE_WITH_ORCID_OR_REMOVE_LINE"
+      "affiliation": "Northern Philippines Root Crops Research and Training Center, Benguet State University"
     },
     {
       "name": "Agoo, Esperanza Maribel G.",
-      "affiliation": "De La Salle University",
-      "orcid": "REPLACE_WITH_ORCID_OR_REMOVE_LINE"
+      "affiliation": "De La Salle University"
     },
     {
       "name": "Magtaas, Remjohn Aron H.",
-      "affiliation": "DOST-Philippine Nuclear Research Institute",
-      "orcid": "REPLACE_WITH_ORCID_OR_REMOVE_LINE"
+      "affiliation": "DOST-Philippine Nuclear Research Institute"
     }
   ],
   "keywords": [
@@ -61,16 +53,5 @@
   "upload_type": "software",
   "access_right": "open",
   "language": "eng",
-  "communities": [
-    {"identifier": "open-science"}
-  ],
-  "related_identifiers": [
-    {
-      "identifier": "https://github.com/Jbong17/UBI",
-      "relation": "isSupplementTo",
-      "scheme": "url",
-      "resource_type": "software"
-    }
-  ],
   "notes": "Software is licensed under MIT. Data files (CSV) within this archive are licensed under CC-BY 4.0 as documented in the LICENSE file. Please cite the accompanying Scientific Reports article when using this code or data."
 }
