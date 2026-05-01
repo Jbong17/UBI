@@ -1,0 +1,75 @@
+# ============================================================
+# UBI Repository — .gitignore
+# ============================================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ---------- Jupyter / IPython ----------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ---------- Generated / output artifacts ----------
+# (delete from repo root if accidentally committed; large binary outputs
+#  should be regenerated from notebooks rather than tracked)
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# Generated figures (PNG, PDF) outside intended output folders
+plots/
+output/
+outputs/
+results/
+publication_materials/
+
+# ---------- Operating system ----------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---------- Editors / IDEs ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------- Logs and caches ----------
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ---------- Misc ----------
+*.tmp
+*.temp
+*.bak
